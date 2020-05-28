@@ -1,1 +1,7 @@
-<p>timeline works!</p>
+<header><h1>Welcome to Twhisky!</h1></header>
+
+<section>
+  <div *ngFor="let sip of sips">
+    <twhisky-sip [sip]="sip" (retweets)="onRetweet($event)" (likes)="onLike($event)"></twhisky-sip>
+  </div>
+</section>
