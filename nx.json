@@ -18,5 +18,13 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "timeline": {
+      "tags": []
+    },
+    "timeline-e2e": {
+      "tags": [],
+      "implicitDependencies": ["timeline"]
+    }
+  }
 }
